@@ -1,6 +1,6 @@
 const projectCases = {
   "life-service-app": {
-    title: "惠买生活 App",
+    title: "易资省钱APP",
     kicker: "C 端产品 · 本地生活 · 电商导购",
     summary: "围绕本地生活与电商导购场景，梳理内容层级、核心路径与移动端购买体验。",
     folder: "life-app",
@@ -8,7 +8,7 @@ const projectCases = {
     heights: [788, 788, 788, 788, 788, 1182, 788, 1123, 908, 2484, 1260, 788, 788, 827]
   },
   "app-redesign": {
-    title: "App Redesign",
+    title: "微光APP",
     kicker: "C 端产品 · 体验改版 · 交互动效",
     summary: "通过信息层级、状态反馈与关键路径重构，让产品界面更清晰，也让高频操作更顺手。",
     folder: "app-redesign",
@@ -31,13 +31,21 @@ const projectCases = {
     pdf: "aigc-visual-system.pdf",
     heights: [1491, 788, 1110, 788, 1313, 788, 788, 788, 788, 1022, 788, 788]
   },
+  "smart-environment-visualization": {
+    title: "智慧环保可视化大屏",
+    kicker: "数据可视化 · 环保监测 · 生态数据",
+    summary: "整合空气质量、地图监测与生态数据，让区域环境状态可以被快速识别、定位和处理。",
+    folder: "smart-environment",
+    pdf: "smart-environment-visualization.pdf",
+    heights: [788, 788, 788, 788, 3097, 2771, 788, 2503]
+  },
   "smart-park-visualization": {
-    title: "智慧园区可视化",
+    title: "智慧园区可视化大屏",
     kicker: "数据可视化 · 智慧园区 · 监控大屏",
-    summary: "整合地图、监控与预警状态，让复杂园区数据可以被快速识别、定位和处理。",
+    summary: "整合园区态势、空间信息与运营数据，让复杂状态可以被快速识别、定位和处理。",
     folder: "smart-park",
     pdf: "smart-park-visualization.pdf",
-    heights: [788, 788, 788, 788, 3097, 2771, 788, 2503, 788, 788, 788, 4095, 2092, 3164]
+    heights: [788, 788, 788, 4095, 2092, 3164]
   },
   "icon-system": {
     title: "图标与组件系统",
