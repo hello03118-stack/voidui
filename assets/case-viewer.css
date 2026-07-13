@@ -10,14 +10,12 @@
   font-family: "Alibaba PuHuiTi", "HarmonyOS Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --case-bg: oklch(0.14 0.008 255);
-    --case-ink: oklch(0.96 0 0);
-    --case-muted: oklch(0.72 0.008 255);
-    --case-line: oklch(0.3 0.01 255);
-    --case-surface: oklch(0.19 0.01 255);
-  }
+:root[data-theme="dark"] {
+  --case-bg: oklch(0.14 0.008 255);
+  --case-ink: oklch(0.96 0 0);
+  --case-muted: oklch(0.72 0.008 255);
+  --case-line: oklch(0.3 0.01 255);
+  --case-surface: oklch(0.19 0.01 255);
 }
 
 * {
